@@ -1,0 +1,90 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0 0 0 0;
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+}
+
+.main-contenedor {
+  max-width: 1300px;
+  width: 90%;
+  height: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fondo {
+  width: 312px;
+  height: 320px;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.sombraSesion {
+  box-shadow: 0 0px 7px 1px rgb(0 0 0 / 10%);
+}
+
+form.item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+form.item div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+form input {
+  width: 100%;
+  font-size: 18px;
+  padding: 7px 10px;
+  margin: 0px 0px 10px;
+  border-radius: 5px;
+  border:1px solid;
+}
+
+form input::placeholder {
+  color: #a7a7a7;
+}
+
+form button{
+  background-color: #0c3c4a;
+  color: #ffffff;
+  border:0px;
+  font-size: 18px;
+  padding: 8px 15px;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+
+form button:hover{
+  background-color: #ffffff;
+  color: #0c3c4a;
+  border:2px solid #0c3c4a;
+  padding: 6px 13px;
+}
+
+form p{
+  font-size: 20px;
+  margin: 0px 0px 20px;
+}

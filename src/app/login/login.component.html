@@ -1,0 +1,17 @@
+<div class="main-contenedor">
+    <div class="fondo sombraSesion">
+        <form class="item" #f="ngForm" (ngSubmit)="f.form.valid && login(f)">
+            <div>
+                <p>Ingresa tus datos</p>
+                <input type="email" name="email" placeholder="Email" ngModel required size="60">
+                <input type="password" name="password" placeholder="Password" ngModel required size="60">
+                <button type="submit" style="cursor:pointer">Ingresar</button>
+            </div>
+            <p class="p-registro">
+                ¿No tienes cuenta?
+                <br> 
+                <span (click)="registro()">Registrate aquí</span> 
+            </p>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,127 @@
+.main-contenedor {
+  height: auto;
+  justify-content: flex-start;
+  padding-top: 30px;
+  flex-wrap: wrap;
+}
+
+select {
+  width: 200px;
+  height: 48px;
+  padding: 12px 8px;
+  border-radius: 4px;
+  border: solid 1.9px #999999;
+  font-size: 16px;
+  color: #999999;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.filtros {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cont-noticias {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.image {
+  width: 100%;
+  height: 192px;
+  margin: 0 0 12px;
+  object-fit: cover;
+}
+
+.texto1 {
+  width: 100%;
+  height: auto;
+  padding: 0px 16px;
+  margin: 12px 0px 7px;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3a3a3a;
+
+}
+
+.texto2 {
+  width: 100%;
+  height: auto;
+  padding: 0px 16px;
+  margin: 7px 0px 11px 0px;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3a3a3a;
+  overflow: hidden;
+}
+
+.texto3 {
+  width: 100%;
+  height: auto;
+  margin: 11px 0px 0 0px;
+  padding: 0px 16px;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #999999;
+}
+
+.fondo {
+  padding: 0px;
+  margin-bottom: 48px;
+  height: 375px;
+
+}
+
+.hidden{
+    overflow: hidden;
+}
+
+.nomargin{
+    margin: 0px;
+}
+
+.btna{
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #0c3c4a;
+    padding: 8px 16px;
+    margin-left: 16px;
+    margin-top: 16px;
+    width: 115px;
+    border-radius: 3px;
+}
+
+.btna:hover{
+    background-color: #ffffff;
+    color: #0c3c4a;
+    border:2px solid #0c3c4a;
+    padding: 6px 14px;
+}
+
+a{
+    text-decoration: none;
+    width: 115px;
+    display: flex;
+}

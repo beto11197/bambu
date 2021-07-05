@@ -1,0 +1,12 @@
+<div class="main-contenedor">
+    <div class="fondo sombraSesion">
+        <form class="item" #f="ngForm" (ngSubmit)="f.form.valid && registro(f)">
+            <div>
+                <p>Ingresa tus datos</p>
+                <input type="email" name="email" placeholder="Email" ngModel required size="60">
+                <input type="password" name="password" placeholder="Password" ngModel required size="60">
+                <button type="submit" style="cursor:pointer">Registrarse</button>
+            </div>
+        </form>
+    </div>
+</div>

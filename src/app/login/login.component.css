@@ -1,0 +1,11 @@
+p.p-registro {
+  font-size: 15px !important;
+  text-align: center;
+  line-height: 1.2;
+}
+
+p.p-registro span {
+  font-style: italic;
+  cursor: pointer;
+  color: #0c3c4a;
+}

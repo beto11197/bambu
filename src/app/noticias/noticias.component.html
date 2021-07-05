@@ -1,0 +1,31 @@
+<div class="main-contenedor">
+    <div class="filtros">
+        <select name="pais" id="pais" (change)="filtroPais($event)">
+            <option value="mx">México</option>
+            <option value="us">Estados Unidos</option>
+            <option value="co">Colombia</option>
+        </select>
+        <select name="tema" id="tema" (change)="filtroTema($event)">
+            <option value="business">Negocios</option>
+            <option value="entertainment">Entretenimiento</option>
+            <option value="general">General</option>
+            <option value="health">Salud</option>
+            <option value="science">Ciencia</option>
+            <option value="sports">Deportes</option>
+            <option value="technology">Tecnología</option>
+        </select>
+    </div>
+
+    <div class="cont-noticias">
+        <div class="fondo" *ngFor="let noticia of noticias">
+            <img src="{{noticia.urlToImage}}" class="image">
+            <p class="texto1" *ngIf="noticia.title!=null"> {{noticia.title.length>29?noticia.title.substring(0,29)+"...":noticia.title}} </p>
+            <p class="texto2" *ngIf="noticia.publishedAt!=null">Publicado: {{noticia.publishedAt}} </p>
+            <p class="texto3" *ngIf="noticia.description!=null">{{noticia.description.length>43?noticia.description.substring(0,43)+"...":noticia.description}} </p>
+            <p class="texto3 nomargin">Por: {{noticia.author}} </p>
+            <a href="{{noticia.url}}" target="_blank"><div class="btna">Leer más</div></a>
+        </div>
+    </div>
+    
+    
+</div>
